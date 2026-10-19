@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio · Padron Salas Alexis Orlando</title>
+  
+  <link rel="icon" type="image/png" href="monograma.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-indigo-500 selection:text-white">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <div>
+          <a href="#inicio">
+            <img class="h-8 w-auto" alt="Logo Alexis Padron Dev" src="si.png">
+          </a>
+        </div>
+        <nav class="flex space-x-6 text-sm font-medium text-slate-300">
+          <a href="#sobre-mi" class="hover:text-white transition-colors">Sobre mí</a>
+          <a href="#stack" class="hover:text-white transition-colors">Stack</a>
+          <a href="#proyecto" class="hover:text-white transition-colors">Proyecto</a>
+          <a href="#entregas" class="hover:text-white transition-colors">Entregas</a>
+          <a href="#contacto" class="hover:text-white transition-colors">Contacto</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="relative py-20 overflow-hidden border-b border-slate-800">
+    <img class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-5 pointer-events-none w-96 h-96" aria-hidden="true" src="monograma.png">
+    
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="flex flex-col md:flex-row items-center gap-10">
+        
+        <!-- Foto de Perfil -->
+        <div class="flex-shrink-0">
+          <img class="w-48 h-48 rounded-full object-cover border-4 border-indigo-500/30 shadow-xl" alt="Foto de Padron Salas Alexis Orlando" src="foto-perfil.png">
+        </div>
+
+        <!-- Información Principal -->
+        <div class="space-y-4 text-center md:text-left">
+          <p class="text-sm font-semibold tracking-wider text-indigo-400 uppercase">
+            Portafolio · Aplicaciones Web
+          </p>
+          <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-white">
+            Padron Salas Alexis Orlando
+          </h1>
+          <p class="text-base text-slate-400">
+            Matrícula: <span class="text-slate-200 font-mono">25311061</span> · Grupo: <span class="text-slate-200 font-mono">DSM4-2</span>
+          </p>
+          <p class="text-lg text-slate-300 max-w-2xl">
+            Estudiante de Ingeniería en Desarrollo de Software en la Universidad Tecnológica de Hermosillo.
+          </p>
+          
+          <div class="flex flex-wrap gap-4 pt-2 justify-center md:justify-start">
+            <a href="https://github.com/PadronSalas" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-100 rounded-lg font-medium transition-colors border border-slate-700">GitHub</a>
+            <a href="https://www.linkedin.com/in/alexis-padron-salas-0b2b8b21a/" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-100 rounded-lg font-medium transition-colors border border-slate-700">LinkedIn</a>
+            <a href="#entregas" class="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg font-medium transition-colors">Ver mis entregas →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre mí -->
+  <section id="sobre-mi" class="py-16 border-b border-slate-800">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <p class="text-indigo-400 text-sm font-semibold uppercase tracking-wider">Sobre mí</p>
+      <h2 class="text-3xl font-bold text-white mt-1 mb-6">Un poco más de contexto</h2>
+      <p class="text-slate-300 text-lg leading-relaxed">
+        Mi nombre es Alexis Orlando Padron Salas, tengo 19 años y actualmente soy estudiante de Ingeniería de Software de la UTH.Me encanta la programación y la tecnología por la capacidad que me confiere para poder hacer realidad mis ideas.
+      </p>
+    </div>
+  </section>
+
+  <!-- Stack -->
+  <section id="stack" class="py-16 border-b border-slate-800 bg-slate-900/50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <p class="text-indigo-400 text-sm font-semibold uppercase tracking-wider">Stack</p>
+      <h2 class="text-3xl font-bold text-white mt-1 mb-8">Tecnologías que usé en este curso</h2>
+      
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+        <div class="bg-slate-800/80 p-4 rounded-xl border border-slate-700 flex flex-col items-center text-center">
+          <span class="text-3xl mb-2">🌐</span>
+          <span class="text-sm font-medium text-slate-200">HTML5 semántico</span>
+        </div>
+        <div class="bg-slate-800/80 p-4 rounded-xl border border-slate-700 flex flex-col items-center text-center">
+          <span class="text-3xl mb-2">🎨</span>
+          <span class="text-sm font-medium text-slate-200">Tailwind CSS</span>
+        </div>
+        <div class="bg-slate-800/80 p-4 rounded-xl border border-slate-700 flex flex-col items-center text-center">
+          <span class="text-3xl mb-2">🐍</span>
+          <span class="text-sm font-medium text-slate-200">Django (Python)</span>
+        </div>
+        <div class="bg-slate-800/80 p-4 rounded-xl border border-slate-700 flex flex-col items-center text-center">
+          <span class="text-3xl mb-2">🗄️</span>
+          <span class="text-sm font-medium text-slate-200">MySQL en la nube</span>
+        </div>
+        <div class="bg-slate-800/80 p-4 rounded-xl border border-slate-700 flex flex-col items-center text-center">
+          <span class="text-3xl mb-2">🚀</span>
+          <span class="text-sm font-medium text-slate-200">Render</span>
+        </div>
+        <div class="bg-slate-800/80 p-4 rounded-xl border border-slate-700 flex flex-col items-center text-center">
+          <span class="text-3xl mb-2">📦</span>
+          <span class="text-sm font-medium text-slate-200">Git + GitHub</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyecto Integrador -->
+  <section id="proyecto" class="py-16 border-b border-slate-800">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <p class="text-indigo-400 text-sm font-semibold uppercase tracking-wider">Proyecto Integrador</p>
+      <h2 class="text-3xl font-bold text-white mt-1 mb-4">Eventos Y'ale</h2>
+      <p class="text-slate-300 text-lg mb-6">
+        Servicios de carritos de hot dogs.
+      </p>
+
+      <div class="mb-6 rounded-xl overflow-hidden border border-slate-800 bg-slate-900 shadow-2xl">
+        <img class="w-full h-auto object-cover" alt="Captura de pantalla de mi proyecto" src="proyecto.png">
+      </div>
+
+      <div>
+        <a href="https://[LINK_DE_TU_PROYECTO_EN_VIVO]" target="_blank" rel="noopener noreferrer" class="text-indigo-400 hover:text-indigo-300 font-medium inline-flex items-center gap-1">
+          Ver proyecto en vivo → (en construcción)
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Entregas / Prácticas -->
+  <section id="entregas" class="py-16 border-b border-slate-800 bg-slate-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <p class="text-indigo-400 text-sm font-semibold uppercase tracking-wider">Evidencia por unidad</p>
+      <h2 class="text-3xl font-bold text-white mt-1 mb-2">Mis entregas publicadas</h2>
+      <p class="text-slate-400 mb-8">Cada enlace lleva a la versión pública que entregué al cerrar esa unidad, sobre el mismo proyecto.</p>
+
+      <ul class="space-y-6">
+        <li class="bg-slate-800/50 p-6 rounded-xl border border-slate-700/80">
+          <p class="text-indigo-400 font-bold">Unidad 1</p>
+          <p class="text-sm text-slate-400 mb-3">Portafolio estático (HTML + Tailwind)</p>
+          <div class="space-y-1">
+            <a href="https://modificacion-portafolio-psao.onrender.com" target="_blank" rel="noopener noreferrer" class="text-indigo-300 hover:underline block">Práctica 1 - Portafolio 1</a>
+            <a href="https://ine-personal-psao.onrender.com" target="_blank" rel="noopener noreferrer" class="text-indigo-300 hover:underline block">Práctica 2 - Portafolio 2</a>
+          </div>
+        </li>
+
+        <li class="bg-slate-800/50 p-6 rounded-xl border border-slate-700/80">
+          <p class="text-indigo-400 font-bold">Unidad 2</p>
+          <p class="text-sm text-slate-400 mb-3">App Django + MySQL en Render</p>
+          <div class="space-y-1">
+            <a href="https://miproyecto-padronsalas-alexisorlando.onrender.com/" target="_blank" rel="noopener noreferrer" class="text-indigo-300 hover:underline block">Práctica 1 - Página principal</a>
+            <a href="https://miproyecto-padronsalas-alexisorlando.onrender.com/" target="_blank" rel="noopener noreferrer" class="text-indigo-300 hover:underline block">Práctica 2 - Pestaña de servicios</a>
+            <a href="https://portafolio-padronsalasalexisorlando.onrender.com/" target="_blank" rel="noopener noreferrer" class="text-indigo-300 hover:underline block">Práctica 3 - Portafolio</a>
+          </div>
+        </li>
+
+        <li class="bg-slate-800/50 p-6 rounded-xl border border-slate-700/80">
+          <p class="text-indigo-400 font-bold">Unidad 3</p>
+          <p class="text-sm text-slate-400 mb-3">CRUD de Servicios en Admin</p>
+          <div class="space-y-1">
+            <a href="https://u3s5-padron-salas-alexis-orlando.onrender.com/servicios/" target="_blank" rel="noopener noreferrer" class="text-indigo-300 hover:underline block">Práctica 1 - CRUD de ModelForms</a>
+          </div>
+        </li>
+
+        <li class="bg-slate-800/50 p-6 rounded-xl border border-slate-700/80">
+          <p class="text-indigo-400 font-bold">Unidad 4</p>
+          <p class="text-sm text-slate-400 mb-3">Proyecto integrador final</p>
+          <span class="text-slate-500 italic">Próximamente</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-16 border-b border-slate-800">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <p class="text-indigo-400 text-sm font-semibold uppercase tracking-wider">Contacto</p>
+      <h2 class="text-3xl font-bold text-white mt-1 mb-8">Hablemos</h2>
+      <div class="flex flex-wrap justify-center gap-6">
+        <a href="mailto:a[TU_MATRICULA]@uthermosillo.edu.mx" target="_blank" rel="noopener noreferrer" class="px-6 py-3 bg-slate-800 hover:bg-slate-700 text-slate-100 rounded-xl font-medium border border-slate-700 transition-colors">
+          ✉️ a25311061@uthermosillo.edu.mx
+        </a>
+        <a href="https://github.com/[TU_USUARIO_GITHUB]" target="_blank" rel="noopener noreferrer" class="px-6 py-3 bg-slate-800 hover:bg-slate-700 text-slate-100 rounded-xl font-medium border border-slate-700 transition-colors">
+          GitHub:PadronSalas
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 bg-slate-950 text-slate-400 text-sm border-t border-slate-900">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <img class="h-6 w-auto" alt="Monograma de Alexis Padron" src="monograma.png">
+        <p>© 2026 Padron Salas, Alexis Orlando. Todos los derechos reservados.</p>
+      </div>
+
+      <p>
+        Aplicaciones Web · Docente: Bernardo Prado Díaz
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
